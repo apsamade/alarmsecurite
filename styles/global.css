@@ -33,6 +33,13 @@
     animation: fadeIn 0.5s 0s ease forwards;
 }
 
+.grid-ressources {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(150px, 1fr));
+}
+
 @keyframes animate-background{
     0%{
         opacity: 0;

@@ -95,7 +95,97 @@ export default function Home() {
             </span>
           </Link>
         </section>
+
+        <section className="xl:px-64 py-44 p-8 text-white bg-primary my-8 flex items-start justify-around ">
+          <div className="mr-24 max-w-[480px]">
+            <h2 className="font-semibold text-5xl">Pourquoi Securitas Technology?</h2>
+            <Link
+              href="#"
+              className="p-8 mt-12 w-fit hover:px-12 duration-200 py-4 flex items-center justify-center bg-violet-400 text-black rounded-2xl"
+            >
+              <TbSquareRoundedArrowRightFilled className="mr-2 text-4xl" />
+              En savoir plus
+            </Link>
+            <section>
+              <div className="mt-14 border-l-2 border-purple-400 pl-7 p-4 pb-3">
+                <h3 className="mb-4 font-semibold text-2xl">La télésurveillance et vidéosurveillance pour les professionnels</h3>
+                <p className="text-thin text-sm">Securitas Technology, leader de la sécurité professionnelle en France, met toute son expertise en télésurveillance et vidéosurveillance à votre service.</p>
+                <Link
+                  href="#"
+                  className="p-8 pl-0 mt-6 border-b-2 border-transparent text-violet-400 w-fit hover:border-violet-400 duration-200 py-4 pb-2 flex items-center justify-center"
+                >
+                  <TbSquareRoundedArrowRightFilled className="mr-2 text-4xl" />
+                  Découvrir
+                </Link>
+              </div>
+              <div className="border-l-2 border-sky-950 pl-7 p-4 pb-3">
+                <h3 className="mb-4 opacity-50 font-semibold text-2xl">Un écosystème unique qui répond à tous vos besoins en matière de sûreté, de santé et de sécurité™ </h3>
+              </div>
+            </section>
+          </div>
+          <Image
+            src="/assets/elements/cyber.png"
+            alt="cybersécurité"
+            width={650}
+            height={1300}
+          />
+        </section>
       </main>
+      <section>
+        <h2 className="text-center my-12 text-6xl font-semibold">Ressources</h2>
+        <section className="max-w-[1300px] mx-auto mt-12 mb-24 grid-ressources">
+          <div className="border border-1 hover:shadow-2xl hover:scale-[103%] duration-200 border-gray-200 shadow-xl rounded-xl p-6">
+            <h3>Espace client</h3>
+            <Link
+                  href="#"
+                  className="p-8 pl-0 mt-6 border-b-2 border-transparent text-blue-600 w-fit hover:border-violet-400 duration-200 py-4 pb-2 flex items-center justify-center"
+                >
+                  <TbSquareRoundedArrowRightFilled className="mr-2 text-4xl" />
+                  Découvrir
+                </Link>
+          </div>
+          <div className="border border-1 hover:shadow-2xl hover:scale-[103%] duration-200 border-gray-200 shadow-xl rounded-xl p-6">
+            <h3>Espace client</h3>
+            <Link
+                  href="#"
+                  className="p-8 pl-0 mt-6 border-b-2 border-transparent text-blue-600 w-fit hover:border-violet-400 duration-200 py-4 pb-2 flex items-center justify-center"
+                >
+                  <TbSquareRoundedArrowRightFilled className="mr-2 text-4xl" />
+                  Découvrir
+                </Link>
+          </div>
+          <div className="border border-1 hover:shadow-2xl hover:scale-[103%] duration-200 border-gray-200 shadow-xl rounded-xl p-6">
+            <h3>Espace client</h3>
+            <Link
+                  href="#"
+                  className="p-8 pl-0 mt-6 border-b-2 border-transparent text-blue-600 w-fit hover:border-violet-400 duration-200 py-4 pb-2 flex items-center justify-center"
+                >
+                  <TbSquareRoundedArrowRightFilled className="mr-2 text-4xl" />
+                  Découvrir
+                </Link>
+          </div>
+          <div className="border border-1 hover:shadow-2xl hover:scale-[103%] duration-200 border-gray-200 shadow-xl rounded-xl p-6">
+            <h3>Espace client</h3>
+            <Link
+                  href="#"
+                  className="p-8 pl-0 mt-6 border-b-2 border-transparent text-blue-600 w-fit hover:border-violet-400 duration-200 py-4 pb-2 flex items-center justify-center"
+                >
+                  <TbSquareRoundedArrowRightFilled className="mr-2 text-4xl" />
+                  Découvrir
+                </Link>
+          </div>
+          <div className="border border-1 hover:shadow-2xl hover:scale-[103%] duration-200 border-gray-200 shadow-xl rounded-xl p-6">
+            <h3>Espace client</h3>
+            <Link
+                  href="#"
+                  className="p-8 pl-0 mt-6 border-b-2 border-transparent text-blue-600 w-fit hover:border-violet-400 duration-200 py-4 pb-2 flex items-center justify-center"
+                >
+                  <TbSquareRoundedArrowRightFilled className="mr-2 text-4xl" />
+                  Découvrir
+                </Link>
+          </div>
+        </section>
+      </section>
     </>
   );
 }
