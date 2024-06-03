@@ -13,16 +13,16 @@ const Nav = () => {
     }
     return (
         <>
-            <nav className={`lg:flex z-50 w-full hidden justify-between items-center absolute p-3`}>
+            <nav className={`lg:flex fixed shadow-2xl bg-primary px-12 text-white z-50 w-full hidden justify-between items-center p-3`}>
                 <Link
                     href='/'
                 >
                     <Image
-                        src='/logo/logo_brigade_2.png'
-                        alt='Logo Brigade Fantôme'
-                        width={75}
-                        height={75}
-                        className='rounded-[100%] p-2 hover:scale-110 duration-200'
+                        src='/logo/logo.png'
+                        alt='Logo Alarù securité'
+                        width={90}
+                        height={90}
+                        className='p-3 rounded-[100%] bg-white object-contain hover:scale-110 duration-200'
                     />
                 </Link>
                 <ul className='flex justify-center items-center'>
@@ -68,8 +68,8 @@ const Nav = () => {
                 <AiOutlineMenu size={45} className='text-sky-300' />
             </div>
             <aside
-                className={openMenu ? 'fixed z-20 top-0 right-0 bottom-0 max-w-[350px] w-[70%] lg:hidden duration-200 p-2 bg-black ease-out justify-center flex-col flex items-center'
-                    : 'fixed z-20 top-0 right-[-101%] bottom-0 max-w-[400px] w-[70%] lg:hidden duration-300 p-2 bg-black ease-out justify-center flex-col flex items-center'}
+                className={openMenu ? 'fixed z-20 text-white top-0 right-0 bottom-0 max-w-[350px] w-[70%] lg:hidden duration-200 p-2 bg-black ease-out justify-center flex-col flex items-center'
+                    : 'fixed text-white z-20 top-0 right-[-101%] bottom-0 max-w-[400px] w-[70%] lg:hidden duration-300 p-2 bg-black ease-out justify-center flex-col flex items-center'}
             >
                 <Link
                     href='/'
