@@ -12,15 +12,15 @@ export default function RootLayout({ children }) {
         <meta name="description" content="" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="fr_FR" />
-        <link rel="shortcut icon" href="" type="image/x-icon" />
+        <link rel="shortcut icon" href="/logo/logo.png" type="image/x-icon" />
         <meta httpEquiv="Content-Type" content="text/html;charset=UTF-8" />
         <meta property="og:title" content="Alarme et sécurité" />
         <meta property="og:description" content="" />
-        <meta property="og:image" content="" />
+        <meta property="og:image" content="/logo/logo.png" />
         <meta property="og:url" content="" />
       </head>
 
-      <body>
+      <body className='overflow-x-hidden'>
         <Nav />
         {children}
         <Footer />

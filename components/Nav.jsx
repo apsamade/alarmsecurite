@@ -77,7 +77,7 @@ const Nav = () => {
                     onClick={handleNav}
                 >
                     <Image
-                        src='/logo/logo_brigade_2.png'
+                        src='/logo/logo.png'
                         alt='Logo Brigade Fantôme'
                         width={75}
                         height={75}
