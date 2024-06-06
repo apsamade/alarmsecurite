@@ -8,8 +8,8 @@ export default function Home() {
     <>
       <header className="min-h-[75vh] mb-24 text-white pt-24 bg-menu-header bg-cover relative z-0 xl:p-6">
         <div className="absolute top-0 left-0 -z-10 right-0 bottom-0 bg-gradient-to-r from-[#202020] to-[#0000002d]"></div>
-        <div className="xl:ml-32 mx-auto xl:mt-24 max-w-[700px]">
-          <span className="uppercase text-center xl:mx-0 mx-2 pb-3 block">SÉCURITÉ ÉLECTRONIQUE POUR LES ENTREPRISES</span>
+        <div className="xl:ml-32 mx-auto xl:mt-32 max-w-[700px]">
+          <span className="uppercase xl:text-left text-center xl:mx-0 mx-2 pb-3 block">SÉCURITÉ ÉLECTRONIQUE POUR LES ENTREPRISES</span>
           <h1 className="font-semibold xl:text-left text-center text-4xl xl:text-7xl leading-[105%]">Technologies de sécurité pour votre entreprise</h1>
         </div>
         <div className="flex items-center justify-center rounded-full bg-violet-400 xl:w-fit w-[90%] mx-auto xl:mt-44 mt-24 overflow-hidden">
